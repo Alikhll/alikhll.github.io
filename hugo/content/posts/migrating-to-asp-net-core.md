@@ -32,7 +32,7 @@ I'm gonna be talking about following kind of stuff:
 	> Of course as well as any other presentation we have a demo here.
 
 
-## Simmarization
+## Summarization
 
 How to manage updating to core
 
