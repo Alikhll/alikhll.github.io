@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Ali Khalili</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 May 2020 14:49:18 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jun 2020 13:21:04 +0200</lastBuildDate>
     
 	<atom:link href="https://alikhalili.me/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>OWIN and ASP.NET CORE</title>
+      <link>https://alikhalili.me/blog/posts/owin-asp-net-core/</link>
+      <pubDate>Fri, 19 Jun 2020 13:21:04 +0200</pubDate>
+      
+      <guid>https://alikhalili.me/blog/posts/owin-asp-net-core/</guid>
+      <description>If you have followed the last article regarding process of migrating to asp.net core, we had been discussing a lot about OWIN and its usage amid this goal, I just wanna quickly let you know how easily you can share all your previous codes into asp.net core as well, keep tuned ;)
+How is it possible to use OWIN pipeline in Asp.net core? is it? The answer is pretty straight forward: yes!</description>
+    </item>
     
     <item>
       <title>Migrating to ASP.NET CORE!</title>
