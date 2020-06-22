@@ -51,7 +51,7 @@ How to manage updating to core
 
 > All codes were written are found here [here](https://github.com/Alikhll/AspNetCoreMigration).
 
-
+> Download the power point [here](https://alikhalili.me/sources/DotnetMigrationPresent.pptx).
 
 
 Be Safe ;)
