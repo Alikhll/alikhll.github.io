@@ -229,7 +229,7 @@ For memory consumption I have used gauge, a Gauge is simply an action that retur
 if you have setup grafana, you are able to connect  to its dashboard using http://localhost:3000 then you can login with username/password "admin".
 Afterward, click on "Add data source" and now you are capable to be connecting to a variety of databases, but we would like to choose Prometheus obviously.
 
-![image](/source/prometheus1.PNG)
+![image](/blog/source/prometheus1.PNG)
 
 just I need to remind you to change the url to "http://prom:9090" as you can see as a result of the magic of docker, our services are in same the network, and we don't need to change anything else for now, it's not on production mode :)
 scroll down and click on "Save and test", it'll say "Data source is working".
@@ -237,13 +237,13 @@ scroll down and click on "Save and test", it'll say "Data source is working".
 now you are meant to be creating a dashboard, for sure we are able to create customized panels, but before that I would rather show you how everything is convenient, you have this ability to import some predefined dashboards, just click on import, google this text "appmetrics prometheus grafana", you will have found plenty of open source dashboards, and need a number, I'm using this one "2204",
 load it and then you gotta have something like this
 
-![image](/source/prometheus2.PNG)
+![image](/blog/source/prometheus2.PNG)
 
 Cool ha? 
 
 We are not over yet, now I would like to show you briefly you can do further more without any doubts, create a panel and then you obliged to change stuff as well as below one
 
-![image](/source/prometheus3.PNG)
+![image](/blog/source/prometheus3.PNG)
 
 now we have applied our customized middleware whose memory consumption metrics are determined in the grafana panel right now.
 

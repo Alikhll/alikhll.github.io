@@ -242,15 +242,15 @@ Let&rsquo;s create a middleware for detecting memory consumption out, create a c
 <h3 id="lets-create-a-dashboard-in-grafana">Let&rsquo;s create a dashboard in Grafana</h3>
 <p>if you have setup grafana, you are able to connect  to its dashboard using http://localhost:3000 then you can login with username/password &ldquo;admin&rdquo;.
 Afterward, click on &ldquo;Add data source&rdquo; and now you are capable to be connecting to a variety of databases, but we would like to choose Prometheus obviously.</p>
-<p><img src="/source/prometheus1.PNG" alt="image"></p>
+<p><img src="/blog/source/prometheus1.PNG" alt="image"></p>
 <p>just I need to remind you to change the url to &ldquo;http://prom:9090&rdquo; as you can see as a result of the magic of docker, our services are in same the network, and we don&rsquo;t need to change anything else for now, it&rsquo;s not on production mode :)
 scroll down and click on &ldquo;Save and test&rdquo;, it&rsquo;ll say &ldquo;Data source is working&rdquo;.</p>
 <p>now you are meant to be creating a dashboard, for sure we are able to create customized panels, but before that I would rather show you how everything is convenient, you have this ability to import some predefined dashboards, just click on import, google this text &ldquo;appmetrics prometheus grafana&rdquo;, you will have found plenty of open source dashboards, and need a number, I&rsquo;m using this one &ldquo;2204&rdquo;,
 load it and then you gotta have something like this</p>
-<p><img src="/source/prometheus2.PNG" alt="image"></p>
+<p><img src="/blog/source/prometheus2.PNG" alt="image"></p>
 <p>Cool ha?</p>
 <p>We are not over yet, now I would like to show you briefly you can do further more without any doubts, create a panel and then you obliged to change stuff as well as below one</p>
-<p><img src="/source/prometheus3.PNG" alt="image"></p>
+<p><img src="/blog/source/prometheus3.PNG" alt="image"></p>
 <p>now we have applied our customized middleware whose memory consumption metrics are determined in the grafana panel right now.</p>
 <h2 id="conclusion">Conclusion</h2>
 <ol>
