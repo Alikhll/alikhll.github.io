@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Ali Khalili</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Jun 2020 13:21:04 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2020 13:48:21 +0200</lastBuildDate>
     
 	<atom:link href="https://alikhalili.me/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to Configure Prometheus with Appmetrics in ASP.NET Core</title>
+      <link>https://alikhalili.me/blog/posts/appmetrics-prometheus-grafana-asp-core/</link>
+      <pubDate>Thu, 25 Jun 2020 13:48:21 +0200</pubDate>
+      
+      <guid>https://alikhalili.me/blog/posts/appmetrics-prometheus-grafana-asp-core/</guid>
+      <description>One of a super crucial part of each application obviously is metrics, first of all, we need to figure it out what actually metric means and make a distinction between metrics and logging. I don&amp;rsquo;t want to go through details however metric represents everything related to the numbers, basically, if you have numerical stuff, it would be involved with metrics as well; in other hand loggings come with some human readable information such as &amp;ldquo;Order was inserted with these parameters lablablab ;)&amp;rdquo; I guess it&amp;rsquo;s clear enough right now, so in case of having some sort of numbers as same as request counts, CPU or memory consumptions, etc.</description>
+    </item>
     
     <item>
       <title>OWIN and ASP.NET CORE</title>

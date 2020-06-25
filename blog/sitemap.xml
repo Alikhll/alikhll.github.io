@@ -4,16 +4,21 @@
   
   <url>
     <loc>https://alikhalili.me/blog/</loc>
-    <lastmod>2020-06-19T13:21:04+02:00</lastmod>
+    <lastmod>2020-06-25T13:48:21+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://alikhalili.me/blog/posts/owin-asp-net-core/</loc>
-    <lastmod>2020-06-19T13:21:04+02:00</lastmod>
+    <loc>https://alikhalili.me/blog/posts/appmetrics-prometheus-grafana-asp-core/</loc>
+    <lastmod>2020-06-25T13:48:21+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://alikhalili.me/blog/posts/</loc>
+    <lastmod>2020-06-25T13:48:21+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alikhalili.me/blog/posts/owin-asp-net-core/</loc>
     <lastmod>2020-06-19T13:21:04+02:00</lastmod>
   </url>
   
