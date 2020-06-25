@@ -255,4 +255,7 @@ https://prometheus.io/docs/instrumenting/exporters/
 
 3) Use docker to manage stuff as a piece of cake ;)
 
+Download entire the project here
+http://alikhalili.me/blog/source/prometheus.zip
+
 Be safe :)
