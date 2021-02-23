@@ -204,12 +204,9 @@ public class MemoryMetricsMiddleware
     }
 ```
 
-and then easily apply this middleware in your startup, I would rather to map it being called whenever metrics-text endpoint is requested!
+and then easily apply this middleware in your startup, it would being called in every request though, but cool for now
 ```
-app.Map("/metrics-text", a =>
-            {
-                a.UseMiddleware<MemoryMetricsMiddleware>();
-            });
+    app.UseMiddleware<MemoryMetricsMiddleware>();
 ```
 
 FYI: we have some different types for our metrics
